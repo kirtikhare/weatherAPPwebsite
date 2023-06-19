@@ -1,0 +1,303 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Main styling*/
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em; 
+  height: 100%;
+  background-image: url('../img/melbourne.jpg');
+ center: center/cover;
+ 
+ background-size:cover;
+ background-color: black
+ margin: 0;
+ height: 100%;
+ 
+ 
+}
+a{
+  color: #333;
+  text-decoration: none;
+}
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+p{
+  margin: 10px 0;
+}
+/* utility*/
+.bg-primary{
+  background: rgb(165, 231, 231);
+}
+
+
+
+
+.container {
+  max-width: 1700px;
+  margin: auto;
+}
+.text-primary{
+  color: aqua;
+}
+.lead{
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#hyperlink {
+  background-color: rgba(0, 0, 0, 0.5);
+  color:#ddd;
+  
+  
+}
+.clr{
+  clear: both;
+}
+.l-heading{
+  font-size: 40px;
+}
+/* padding*/
+.py-1{
+  padding: 20px 0;
+}
+.py-2{ 
+  padding: 20px 0;
+
+}
+.py-3{
+  padding: 30px 0;
+}
+.btn {
+  padding: 13px 70px;
+  display: inline-block;
+  font-size: 18px;
+  color: white;
+  background: rgb(122, 126, 149);
+  
+  
+}
+.btn:hover{
+  background: rgb(75, 131, 156);
+  color: white;
+}
+/* navbar */
+#navbar{
+  background: lightblue;
+  color: #333;
+  overflow: auto;
+}
+#navbar a{
+  color: black;
+}
+#navbar h1{
+
+  float: left;
+  padding-top: 20px;
+}
+#navbar ul {
+  list-style: none;
+  float: right;
+
+}
+#navbar ul li {
+  float: left;
+}
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+
+}
+#navbar ul li a:hover{
+
+  background: darkcyan;
+  
+}
+#navbar ul li a.current{
+  background: darkcyan;
+}
+
+/* showcase*/
+
+#showcase{
+  background:url('../img/background\ pic.jpg')
+no-repeat center center/cover;
+height: 800px;
+}
+#showcase .showcase-content {
+  color:rgb(214, 223, 225) ;
+  text-align: center;
+  padding-top: 170px;
+}
+
+#showcase .showcase-content h1{
+  font-size: 40px;
+  line-height: 1.2em;
+}
+#showcase .showcase-content p{
+  font-size: 20px;
+  line-height: 1.7em;
+}
+
+#main-footer {
+  text-align: center;
+  background: lightblue;
+  color: #333;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+ 
+  
+  
+
+}
+/*about info*/
+#about-info .info-right{
+  float: right;
+  width:50%;
+  height: 100%;
+}
+#about-info .info-right img{
+  display: block;
+  margin: auto;
+  width: 70%;
+padding: 10px;
+ border-radius: 20%;
+ height: 70%;
+ 
+}
+
+
+
+#about-info .info-left{
+  float: left;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 30px;
+
+}
+.heading{
+  text-align: center;
+  padding: 20px;
+}
+
+/*testimonials*/
+#testimonials{
+  
+  padding-top: 100px;
+}
+
+
+#testimonials .testimonial {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  background-position: center center;
+}
+#testimonials .testimonial img{
+  width: 150px;
+  float: left;
+  margin-right: 50px;
+  border-radius: 20% ;
+  height: 150px;
+}
+.testimonial{
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
+  
+
+  
+}
+
+
+
+
+
+
+.l-heading{
+  text-align: center;
+  padding-bottom: 50px;
+
+}
+.container{
+
+  width: 50%;
+}
+
+#container{
+  margin: 30px auto;
+  padding:15px 180px;
+  max-width: 400px;
+  
+}
+
+  /* attractions*/
+
+table tr td { border: 2px solid; 
+   
+  
+}
+table { width: 70%;
+  border-collapse: collapse;
+margin-left: 70px;
+margin: auto;
+
+}
+td {
+  
+  height: 40px;
+  text-align: center;
+  padding: 10px;
+  
+  
+}
+ 
+  /* contact*/
+  #contact-form .form-group{
+    margin-bottom: 20px;
+  }
+  #contact-form label{
+    display: block;
+    margin-bottom: 5px;
+
+  }
+  #contact-form input, 
+  #contact-form textarea{
+    width: 100%;
+    padding:10px;
+    border: 1px #ddd solid;
+
+  }
+  #contact-form textarea{
+    height: 200px;
+    
+  }
+  #contact-form input:focus, 
+  #contact-form textarea:focus{
+    outline: none;
+    border-color: aqua;
+  }
+
+
+
+
+
+
+
+#about-info .text-primary{
+  text-align: center;
+}
+
