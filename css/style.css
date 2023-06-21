@@ -22,6 +22,7 @@ body{
 a{
   color: #333;
   text-decoration: none;
+
 }
 h1,
 h2,
@@ -90,6 +91,7 @@ p{
   background: lightblue;
   color: #333;
   overflow: auto;
+  height: 70px;
 }
 #navbar a{
   color: black;
@@ -97,7 +99,7 @@ p{
 #navbar h1{
 
   float: left;
-  padding-top: 20px;
+  padding-top: 10px;
   margin-left: 0;
 }
 #navbar ul {
