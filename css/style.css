@@ -9,16 +9,15 @@
 body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.7em; 
-  height: 100%;
+  height: 100vh;
   background-image: url('../img/melbourne.jpg');
  center: center/cover;
  
  background-size:cover;
  background-color: black
  margin: 0;
- height: 100%;
  
- 
+
 }
 a{
   color: #333;
